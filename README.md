@@ -15,7 +15,7 @@ Whether mobile or desktop: to use these cool new features in [vaadin](http://www
 ```
 There is a sample app available - pls. find the details below.
 
-Feel free to share your insights, thoughts and feedback via PR or to sebastianrothbucher AT googlemail DOT com
+Feel free to share your insights, thoughts and feedback!
 
 
 ## Some cool input types
@@ -47,7 +47,7 @@ Week picker: <br /><img src="img/week.png" />
 
 Take the following steps to spice up your vaadin project with the cool HTML5 elements (you can also copy and paste from the sample at vaadin-html5-widgets-test)
 
-- You have to clone / download and mvn install at least vaadin-html5-widgets-core
+- You have to clone / download this project and mvn install at least vaadin-html5-widgets-core
 - You have to include this one as jar into the project you want to use the fields in
 - You have to include this one as jar and source-jar into the project you compile your widgetset with
 - You have to create a custom widgetset (if you don't already have one) and include the Html5 widgets there like this (check out the .gwt.xml of vaadin-html5-widgets-test for one way of how to do that): 
@@ -59,12 +59,12 @@ Take the following steps to spice up your vaadin project with the cool HTML5 ele
 - Have fun!
 
 In case you want to check out the sample first, take these steps (assuming Eclipse): 
-- Check out the whole repo and mvn install with Widgetset the partent project vaadin-html5-widget
+- Clone / download this project and mvn install with Widgetset the parent project vaadin-html5-widget
 - Do an mvn eclipse:eclipse to generate the artifacts for there as well; the two above come out as
 ```
 	mvn install eclipse:eclipse -Pwidgetset
 ```
-- Now you can import as existing projects into eclipse (you'll have vaadin-html5-widget-core and vaadin-html5-widget-war)
+- Now you can import as existing projects into eclipse (you'll have vaadin-html5-widget-core and vaadin-html5-widget-test)
 - To use the server plugin, go to the properties of vaadin-html5-widget-test and change the Java version in the facet (in "Project Facets") to the one given in the "Java Compiler" section; go to "Deployment assembly" and kick out vaadin-html5-widget-core, then re-add it (Project and so on). Finally add target/vaadin-html5-widgets-test-1.0-SNAPSHOT as a folder (also in "Deployment assembly") so the widgetset is available
 - To use the server plugin, (furthermore) go to the properties of vaadin-html5-widgets-core change the Java version in the facet (in "Project Facets") to the one given in the "Java Compiler" section
 - Deploy to a local tomcat and point your browser to http://localhost:8080/vaadin-html5-widgets-test/
