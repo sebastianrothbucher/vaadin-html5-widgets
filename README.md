@@ -1,6 +1,14 @@
 vaadin-html5-widgets
 ====================
 
+<h1 style="color: red">This code has moved!</h1>
+
+You find the most current versions @<a href="https://github.com/akquinet/vaadin-html5-widgets">https://github.com/akquinet/vaadin-html5-widgets</a>
+
+<hr />
+
+<strong>Old version: </strong>
+
 Simple Wrappers for HTML5-inputs for vaadin
 
 Input types like tel or number have long since been useful in the mobile web world as smartphones' virtual keyboards were right the first time. Users didn't have to bother with the nerve-wracking task of switching every time. 
